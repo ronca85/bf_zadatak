@@ -1,0 +1,57 @@
+
+.c-slider {
+	position: relative;
+	height: 200vh;
+	padding: 4vw;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+.c-slide {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	display: flex;
+	padding: 4vw;
+
+	&__info {
+		margin-left: 8vw;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	&__pretitle {
+		font-size: 12px;
+		line-height: 17px;
+		letter-spacing: -0.23px;
+		border-left: solid 1px #000000;
+		padding-left: 10px;
+		margin-left: -10px;
+		margin-bottom: 120px;
+	}
+	&__title {
+		font-size: 76px;
+		line-height: 70px;
+		letter-spacing: -2.34px;
+		margin-bottom: 40px;
+	}
+	&__text {
+		font-size: 25px;
+		line-height: 35px;
+		letter-spacing: -0.47px;
+		width: 25vw;
+	}
+}
+
+.svg-circle {
+	transform: rotate(-90deg);
+	transition: all 1s ease-in-out;
+	fill: none;
+	stroke: #000;
+	stroke-width: 1;
+	stroke-linecap: round;
+	stroke-dasharray: 0 999;
+}
+

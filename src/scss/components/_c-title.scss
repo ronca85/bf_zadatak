@@ -1,0 +1,32 @@
+
+.c-title {
+
+	margin: 0;
+	position: relative;
+
+	// font-family: $font700;
+	font-size: 94px;
+	line-height: 74px;
+	letter-spacing: -5.49px;
+	color: #fff;
+	font-weight: 400;
+	text-align: center;
+
+	@media only screen and (min-width: 768px) {
+	}
+
+	&__line {
+		display: inline-flex;
+		// background: #49f;
+	}
+
+	&--size-xl {
+		font-size: 22vw;
+		line-height: 0.8;
+	}
+
+	&--inverted {
+		color: #000;
+	}
+}
+

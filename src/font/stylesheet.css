@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Plain';
+    src: url('Plain-Light.eot');
+    src: url('Plain-Light.eot?#iefix') format('embedded-opentype'),
+        url('Plain-Light.woff2') format('woff2'),
+        url('Plain-Light.woff') format('woff'),
+        url('Plain-Light.ttf') format('truetype'),
+        url('Plain-Light.svg#Plain-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Plain';
+    src: url('Plain-Bold.eot');
+    src: url('Plain-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Plain-Bold.woff2') format('woff2'),
+        url('Plain-Bold.woff') format('woff'),
+        url('Plain-Bold.ttf') format('truetype'),
+        url('Plain-Bold.svg#Plain-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+

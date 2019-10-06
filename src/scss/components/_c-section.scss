@@ -1,0 +1,21 @@
+
+
+.c-section {
+
+	color: #fff;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	position: relative;
+
+	@media only screen and (min-width: 768px) {
+	}
+
+	&--up100 {
+		transform: translateY(-100%);
+	}
+}
+

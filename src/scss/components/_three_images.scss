@@ -1,0 +1,11 @@
+
+.three_images {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	transform: translateY(100%);
+	pointer-events: none;
+}
+

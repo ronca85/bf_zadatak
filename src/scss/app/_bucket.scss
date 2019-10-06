@@ -1,0 +1,39 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0; // reset
+
+	overflow: hidden;
+	font-family: $font300;
+}
+
+h1 {
+	margin: 0; // reset
+}
+
+// helper classes
+.bg_white {
+	background-color: #fff;
+}
+.bg_black {
+	background-color: #000;
+}
+.flex_center {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.overflow_hidden {
+	display: block;
+	overflow: hidden;
+}
+.posatl_wh {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+

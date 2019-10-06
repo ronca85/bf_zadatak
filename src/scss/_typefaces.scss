@@ -1,0 +1,37 @@
+
+
+@font-face {
+	font-family: 'Plain300';
+	src: url('../../src/font/Plain-Light.eot');
+	src: url('../../src/font/Plain-Light.eot?#iefix') format('embedded-opentype'),
+		url('../../src/font/Plain-Light.woff2') format('woff2'),
+		url('../../src/font/Plain-Light.woff') format('woff'),
+		url('../../src/font/Plain-Light.ttf') format('truetype'),
+		url('../../src/font/Plain-Light.svg#Plain-Light') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Plain700';
+	src: url('../../src/font/');
+	src: url('../../src/font/?#iefix') format('embedded-opentype'),
+		url('../../src/font/Plain-Bold.woff2') format('woff2'),
+		url('../../src/font/Plain-Bold.woff') format('woff'),
+		url('../../src/font/Plain-Bold.ttf') format('truetype'),
+		url('../../src/font/Plain-Bold.svg#Plain-Bold') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+
+$font300: "Plain300";
+$font700: "Plain700";
+
+@mixin font300 {
+	font-family: $font300;
+}
+
+@mixin font700 {
+	font-family: $font700;
+}
+

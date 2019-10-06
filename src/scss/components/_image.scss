@@ -1,0 +1,28 @@
+
+// yandex style bem
+
+.image {}
+
+.image_is_left {
+	left: 0;
+}
+.image_is_right {
+	right: 0;
+}
+.image_rotated_left {
+	transform: rotate(15deg);
+}
+.image_rotated_right {
+	transform: rotate(-15deg);
+}
+
+.image_is_animated {
+	max-width: 360px;
+	position: absolute;
+	top: 0;
+}
+
+.image_lamp {
+	width: 42vw;
+}
+

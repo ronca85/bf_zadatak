@@ -1,0 +1,13 @@
+
+.nav {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 1.5vw 2.5vw 0;
+	opacity: 0;
+	z-index: 20;
+}
+

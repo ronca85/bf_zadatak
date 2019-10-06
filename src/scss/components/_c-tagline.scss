@@ -1,0 +1,28 @@
+
+.c-tagline {
+	margin: 0;
+	line-height: 1;
+	display: block;
+
+	&--inverted {
+		color: #000;
+	}
+
+	&--size-xs {
+		font-size: 22px;
+		letter-spacing: 2.6px;
+	}
+	&--size-s {
+		font-size: 31px;
+		letter-spacing: -0.6px;
+	}
+	&--size-m {
+		font-size: 37px;
+		letter-spacing: 4.3px;
+	}
+	&--size-l {
+		font-size: 52px;
+		letter-spacing: -1px;
+	}
+}
+
